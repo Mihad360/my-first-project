@@ -35,6 +35,10 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
+    cursor: pointer;
+}
+.firstbtn:hover{
+    color: black;
 }
 .seconddiv{
     padding-top: 150px;
@@ -159,10 +163,122 @@
     font-weight: 700;
     font-size: 20px;
     border: none;
-    
+    cursor: pointer;
+}
+.sixbtn:hover{
+    color: black;
 }
 .hmm{
     padding-left: 250px;
+}
+.sevendiv{
+    text-align: center;
+    padding-top: 150px;
+}
+.sevenhead{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
+.sevenpara{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+}
+.sevenpart{
+    /* width: 340px; */
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+.nineone{
+    text-align: center;
+    padding-top: 120px;
+    
+}
+.ninediv{
+    background-image: url("./images/Rectangle\ 9.png");
+    height: 450px;
+    background-repeat: no-repeat;
+    width: 1445px;
+    /* background-size: cover; */
+    margin: auto;
 
 }
-
+.ninehead{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.ninepara{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.nineput{
+    /* padding: 15px 200px 15px 10px; */
+    width: 700px;
+    height: 64px;
+    background-color: white;
+    border-radius: 8px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.ninebtn{
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 64px;
+    cursor: pointer;
+}
+.ninebtn:hover{
+    color: black;
+}
+.ninetwo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.tendiv{
+    text-align: center;
+    background: #111010;
+    margin-top: 100px;
+    height: 480px;
+}
+.tenhead{
+    font-size: 48px;
+    padding-top: 120px;
+    padding-bottom: 25px;
+    font-weight: 800;
+}
+.tenpara{
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 50px;
+}
+#tenspan{
+    color: #E55473;
+}
+#tenid{
+    width: 500px;
+    margin: auto;
+}
+.tenlast{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 20px;
+    padding-top: 10px;
+}
+#tenwhite{
+    color: white;
+}
